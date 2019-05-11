@@ -10,7 +10,7 @@ extern "C" {
 #include <limits.h>
 #define DllExport
 #ifndef MAX_PATH
-	#define MAX_PATH PATH_MAX
+	#define MAX_PATH 1024
 #endif
 
 #else //windows
